@@ -1,0 +1,36 @@
+@charset "UTF-8";
+$bgColor: #f3f7ed;
+$pxNumber: 1;
+$FontFamilyMedium: PingFangSC-Medium;
+$FontFamilyRegular: PingFangSC-Regular;
+$FontSize: 24rpx*$pxNumber;
+//$borderRadius2px: 2rpx * $pxNumber;
+//$borderRadius4px: 4rpx * $pxNumber;
+
+input, div, textarea, button {
+  box-sizing: border-box;
+}
+
+text{
+  //white-space: nowrap;
+  //overflow: hidden;
+  //text-overflow: ellipsis;
+}
+
+button{
+  border-radius: 0;
+}
+button:before, button:after{
+  content: none;
+}
+
+.container {
+  //width: 100%;
+  //height: auto;
+  //display: flex;
+  //flex-direction: column;
+  //justify-content: flex-start;
+  //background-color: $bgColor;
+  //font-family: $FontFamilyRegular;
+  //font-size: $FontSize;
+}
